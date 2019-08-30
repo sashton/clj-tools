@@ -16,7 +16,7 @@
 (defn ^:private parsed-int
   [s]
   (cond
-    (int? s) s
+    (integer? s) s
     (string? s) (try
                   (Integer/parseInt s)
                   (catch Exception _ nil))))

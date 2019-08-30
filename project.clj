@@ -1,4 +1,4 @@
-(defproject sashton/clj-tools "1.0.0"
+(defproject sashton/clj-tools "1.0.1"
   :description "A collection of Clojure tools"
   :url "https://github.com/sashton/clj-tools"
   :license {:name "MIT"
